@@ -116,6 +116,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/fusion3-common/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
     vendor/sony/fusion3-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/sony/fusion3-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/sony/fusion3-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/sony/fusion3-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/fusion3-common/proprietary/lib/libmercury.so:system/lib/libmercury.so \
     vendor/sony/fusion3-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
@@ -208,6 +210,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/fusion3-common/proprietary/vendor/camera/SOI13BS2_IMX135.dat:system/vendor/camera/SOI13BS2_IMX135.dat \
     vendor/sony/fusion3-common/proprietary/vendor/camera/SOI13BS9.dat:system/vendor/camera/SOI13BS9.dat \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/sony/fusion3-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/sony/fusion3-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/sony/fusion3-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/sony/fusion3-common/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
