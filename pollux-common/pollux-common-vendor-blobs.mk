@@ -27,6 +27,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/pollux-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/pollux-common/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/pollux-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/sony/pollux-common/proprietary/lib/libcald_client.so:system/lib/libcald_client.so \
+    vendor/sony/pollux-common/proprietary/lib/libcald_hal:system/lib/libcald_hal.so \
+    vendor/sony/pollux-common/proprietary/lib/libcald_imageutil:system/lib/libcald_imageutil.so \
+    vendor/sony/pollux-common/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
+    vendor/sony/pollux-common/proprietary/lib/libcald_pal.so:system/lib/libcald_pal.so \
     vendor/sony/pollux-common/proprietary/vendor/camera/flash.dat:system/vendor/camera/flash.dat \
     vendor/sony/pollux-common/proprietary/vendor/camera/LGI02BN0_IMX132.dat:system/vendor/camera/LGI02BN0_IMX132.dat \
     vendor/sony/pollux-common/proprietary/vendor/camera/LGI08BN2.dat:system/vendor/camera/LGI08BN2.dat \
