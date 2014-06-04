@@ -37,6 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/yuga/proprietary/etc/firmware/touch_module_id_0x42.img:system/etc/firmware/touch_module_id_0x42.img \
     vendor/sony/yuga/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/yuga/proprietary/lib/hw/nfc.msm8960.so:system/lib/hw/nfc.msm8960.so \
+    vendor/sony/yuga/proprietary/lib/touchfilter/tftype4.so:system/lib/touchfilter/tftype4.so \
     vendor/sony/yuga/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/sony/yuga/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/yuga/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
