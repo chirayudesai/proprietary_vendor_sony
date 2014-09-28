@@ -120,7 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tianchi/proprietary/etc/firmware/modem.b26:system/etc/firmware/modem.b26 \
     vendor/sony/tianchi/proprietary/etc/firmware/modem.b27:system/etc/firmware/modem.b27 \
     vendor/sony/tianchi/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
-    vendor/sony/tianchi/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/sony/tianchi/proprietary/etc/firmware/tzhdcp.b00:system/etc/firmware/tzhdcp.b00 \
     vendor/sony/tianchi/proprietary/etc/firmware/tzhdcp.b01:system/etc/firmware/tzhdcp.b01 \
     vendor/sony/tianchi/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
@@ -157,7 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tianchi/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/sony/tianchi/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
     vendor/sony/tianchi/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
-    vendor/sony/tianchi/proprietary/lib/hw/nfc_nci_pn547.msm8226.so:system/lib/hw/nfc_nci_pn547.msm8226.so \
     vendor/sony/tianchi/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/tianchi/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
     vendor/sony/tianchi/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
@@ -185,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tianchi/proprietary/lib/libmorpho_posture_detect.so:system/lib/libmorpho_posture_detect.so \
     vendor/sony/tianchi/proprietary/lib/libmorpho_scene_detector.so:system/lib/libmorpho_scene_detector.so \
     vendor/sony/tianchi/proprietary/lib/libmorpho_super_resolution.so:system/lib/libmorpho_super_resolution.so \
-    vendor/sony/tianchi/proprietary/lib/libnfc-nci.so:system/lib/libnfc-nci.so \
     vendor/sony/tianchi/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/tianchi/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
     vendor/sony/tianchi/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
