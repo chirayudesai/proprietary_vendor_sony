@@ -21,10 +21,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tianchi_dsds/proprietary/bin/updatemiscta:system/bin/updatemiscta \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b03:system/etc/firmware/adsp.b03 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b04:system/etc/firmware/adsp.b04 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b05:system/etc/firmware/adsp.b05 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b06:system/etc/firmware/adsp.b06 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b07:system/etc/firmware/adsp.b07 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b08:system/etc/firmware/adsp.b08 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b09:system/etc/firmware/adsp.b09 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b10:system/etc/firmware/adsp.b10 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
@@ -34,7 +41,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b04:system/etc/firmware/modem.b04 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b05:system/etc/firmware/modem.b05 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b08:system/etc/firmware/modem.b08 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b09:system/etc/firmware/modem.b09 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b10:system/etc/firmware/modem.b10 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b11:system/etc/firmware/modem.b11 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b13:system/etc/firmware/modem.b13 \
@@ -46,13 +55,18 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b20:system/etc/firmware/modem.b20 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b21:system/etc/firmware/modem.b21 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b22:system/etc/firmware/modem.b22 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b23:system/etc/firmware/modem.b23 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b24:system/etc/firmware/modem.b24 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b25:system/etc/firmware/modem.b25 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b26:system/etc/firmware/modem.b26 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b27:system/etc/firmware/modem.b27 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b28:system/etc/firmware/modem.b28 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.b29:system/etc/firmware/modem.b29 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/tzhdcp.b00:system/etc/firmware/tzhdcp.b00 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/tzhdcp.b01:system/etc/firmware/tzhdcp.b01 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/tzhdcp.b02:system/etc/firmware/tzhdcp.b02 \
+    vendor/sony/tianchi_dsds/proprietary/etc/firmware/tzhdcp.b03:system/etc/firmware/tzhdcp.b03 \
     vendor/sony/tianchi_dsds/proprietary/etc/firmware/tzhdcp.mdt:system/etc/firmware/tzhdcp.mdt \
     vendor/sony/tianchi_dsds/proprietary/lib/libpin-cache.so:system/lib/libpin-cache.so \
     vendor/sony/tianchi_dsds/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
