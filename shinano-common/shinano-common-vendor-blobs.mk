@@ -16,9 +16,11 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/clearpad_fwloader:system/bin/clearpad_fwloader \
+    vendor/sony/shinano-common/proprietary/bin/credmgrd:system/bin/credmgrd \
     vendor/sony/shinano-common/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/sony/shinano-common/proprietary/bin/fmconfig:system/bin/fmconfig \
     vendor/sony/shinano-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/sony/shinano-common/proprietary/bin/iddd:system/bin/iddd \
     vendor/sony/shinano-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/shinano-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/shinano-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -62,6 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/sony/shinano-common/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/sony/shinano-common/proprietary/etc/iddd.conf:system/etc/iddd.conf \
     vendor/sony/shinano-common/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/sony/shinano-common/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/sony/shinano-common/proprietary/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh \
@@ -90,6 +93,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/hw/camera.vendor.qcom.so:system/lib/hw/camera.vendor.qcom.so \
     vendor/sony/shinano-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/shinano-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
+    vendor/sony/shinano-common/proprietary/lib/lib_get_rooting_status.so:system/lib/lib_get_rooting_status.so \
+    vendor/sony/shinano-common/proprietary/lib/lib_get_secure_mode.so:system/lib/lib_get_secure_mode.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_chokoball.so:system/lib/libcacao_chokoball.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_client.so:system/lib/libcacao_client.so \
     vendor/sony/shinano-common/proprietary/lib/libcacao_common.so:system/lib/libcacao_common.so \
@@ -106,10 +111,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/libcald_server.so:system/lib/libcald_server.so \
     vendor/sony/shinano-common/proprietary/lib/libcald_util.so:system/lib/libcald_util.so \
     vendor/sony/shinano-common/proprietary/lib/libcamera_clientsemc.so:system/lib/libcamera_clientsemc.so \
+    vendor/sony/shinano-common/proprietary/lib/libcredential-manager-keystore.so:system/lib/libcredential-manager-keystore.so \
+    vendor/sony/shinano-common/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/shinano-common/proprietary/lib/libexcal_core.so:system/lib/libexcal_core.so \
     vendor/sony/shinano-common/proprietary/lib/libexcal_system.so:system/lib/libexcal_system.so \
     vendor/sony/shinano-common/proprietary/lib/libface.so:system/lib/libface.so \
     vendor/sony/shinano-common/proprietary/lib/libface_wrapper.so:system/lib/libface_wrapper.so \
+    vendor/sony/shinano-common/proprietary/lib/libidd.so:system/lib/libidd.so \
     vendor/sony/shinano-common/proprietary/lib/libkeyctrl.so:system/lib/libkeyctrl.so \
     vendor/sony/shinano-common/proprietary/lib/liblights-core.so:system/lib/liblights-core.so \
     vendor/sony/shinano-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
